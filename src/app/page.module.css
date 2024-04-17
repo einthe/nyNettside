@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-top: 35vh;
+  /* padding: 6rem; */
+  min-height: 100vh;
+}
+
+.title {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1vh;
+  font-weight: 500;
+  padding: 2vh 0;
+  font-size: 5vh;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 2vh;
+  letter-spacing: 0.25vh;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
