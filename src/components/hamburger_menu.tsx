@@ -19,9 +19,9 @@ const HamburgerMenu: React.FC = () => {
 
       {isOpen && (
         <div className="menu">
-          <a href="#">Home</a>
-          <a href="#">Volleyball</a>
-          <a href="#">DJ</a>
+          <a href="/">Home</a>
+          <a href="volleyball">Volleyball</a>
+          <a href="dj">DJ</a>
         </div>
       )}
     </div>

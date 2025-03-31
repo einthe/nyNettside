@@ -11,14 +11,14 @@ export default function Home() {
         </div>
         <video src={'./video.mp4'} autoPlay muted loop className={styles.video}/>
       </div>
-      <div className={styles.text}>
-        <h1>
-          This page is under development
-        </h1>
-      </div>
       <div className={styles.introduction}>
         <h1>
-          Introduction to my website!
+          Introduction
+        </h1>
+      </div>
+      <div className={styles.text}>
+        <h1>
+          Hi! Welcome to my website :D
         </h1>
       </div>
     </main>
