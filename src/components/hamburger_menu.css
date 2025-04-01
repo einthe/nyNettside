@@ -23,7 +23,6 @@
     width: 100%;
     background-color: white;
     border-radius: 2px;
-    transition: all 0.3s ease-in-out;
     z-index: 3;
   }
 
@@ -40,8 +39,6 @@
   }
   
   .menu {
-    width: 400px;
-    height: 300px;
     position: absolute;
     top: -10px;
     right: -10px;
@@ -58,11 +55,35 @@
   
   .menu a {
     padding: 10px 15px;
+    padding-right: 100px;
     text-decoration: none;
-    color: white;
     z-index: 2;
+    background-color: transparent;
+    display: inline;
   }
   
   .menu a:hover {
-    background-color: #aaaaaa88;
+    color: #aaaaaa;          
+    background-color: transparent;
+  }
+
+  .menu-section {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    align-items: center;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-category-text {
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    flex-shrink: 0;
+    align-items: center;
+    padding-left: 10px;
   }

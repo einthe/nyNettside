@@ -19,9 +19,29 @@ const HamburgerMenu: React.FC = () => {
 
       {isOpen && (
         <div className="menu">
-          <a href="/">Home</a>
-          <a href="volleyball">Volleyball</a>
-          <a href="dj">DJ</a>
+
+          <div className="menu-section">
+            <div className="menu-category-text">General</div>
+            <div className="menu-links">
+              <a href="/">Home</a>
+            </div>
+          </div>
+
+          <div className="menu-section">
+            <div className="menu-category-text">Job related</div>
+            <div className="menu-links">
+
+            </div>
+          </div>
+
+          <div className="menu-section">
+            <div className="menu-category-text">Hobbies</div>
+            <div className="menu-links">
+              <a href="volleyball">Volleyball</a>
+              <a href="dj">DJ</a>
+            </div>
+          </div>
+
         </div>
       )}
     </div>
