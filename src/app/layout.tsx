@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import HamburgerMenu from '../components/hamburger_menu';
 import ParallaxBackground from '../components/parallax';
+import ToggleLanguageButton from "../components/toggle_language_button";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <ToggleLanguageButton />
         <ParallaxBackground>
           <HamburgerMenu />
           {children}
