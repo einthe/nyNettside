@@ -3,16 +3,19 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  background-repeat: repeat-y;
 }
 
 .top {
   position: relative;
   width: 100%;
   height: 60vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
 
 .main_title {
@@ -22,19 +25,24 @@
   font-weight: 500;
   font-size: 5vh;
   text-align: center;
+  text-shadow: 0 1px 7px rgba(0, 0, 0, 0.7);
+  z-index: +2;
 }
 
 .text {
   text-align: center;
+  align-content: center;
   font-size: 2vh;
   letter-spacing: 0.25vh;
   padding: 10vh;
+  width: 100%;
+  height: 60vh;
 }
 
 .video {
   position: absolute;
   top: 0;
-  z-index: -1;
+  z-index: +1;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -43,7 +51,22 @@
 
 .introduction {
   text-align: center;
+  align-content: center;
   font-size: 2vh;
   letter-spacing: 0.25vh;
   padding: 10vh;
+  width: 100%;
+  height: 60vh;
+}
+
+.scaling {
+  will-change: transform;
+  transition: transform 0.2s ease;
+  transform-origin: center center;
+}
+
+.main::after {
+  content: "";
+  display: block;
+  height: 50vh;
 }

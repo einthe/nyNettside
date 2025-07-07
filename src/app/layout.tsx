@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import HamburgerMenu from '../components/hamburger_menu';
+import ParallaxBackground from '../components/parallax';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,8 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <HamburgerMenu />
-        {children}
+        <ParallaxBackground>
+          <HamburgerMenu />
+          {children}
+        </ParallaxBackground>
       </body>
     </html>
   );
