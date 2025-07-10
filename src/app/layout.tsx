@@ -4,6 +4,7 @@ import "./globals.css";
 import HamburgerMenu from '../components/hamburger_menu';
 import ParallaxBackground from '../components/parallax';
 import ToggleLanguageButton from "../components/toggle_language_button";
+import { LanguageProvider } from "../components/language_context";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,11 +21,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ToggleLanguageButton />
-        <ParallaxBackground>
-          <HamburgerMenu />
-          {children}
-        </ParallaxBackground>
+        <LanguageProvider>
+          <ToggleLanguageButton />
+          <ParallaxBackground>
+            <HamburgerMenu />
+            {children}
+          </ParallaxBackground>
+        </LanguageProvider>
       </body>
     </html>
   );

@@ -2,11 +2,14 @@
 
 import React, { useState } from 'react';
 import './hamburger_menu.css';
+import { useLanguage } from "./language_context";
 
 const HamburgerMenu: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  const { language } = useLanguage();
 
   return (
     <div className="hamburger-container">
@@ -21,24 +24,36 @@ const HamburgerMenu: React.FC = () => {
         <div className="menu">
 
           <div className="menu-section">
-            <div className="menu-category-text">General</div>
+            <div className="menu-category-text">
+              {language === "en" ? "General" : "Generelt"}
+            </div>
             <div className="menu-links">
-              <a href="/">Home</a>
+              <a href="/">
+                {language === "en" ? "Home" : "Hjem"}
+              </a>
             </div>
           </div>
 
           <div className="menu-section">
-            <div className="menu-category-text">Job related</div>
+            <div className="menu-category-text">
+              {language === "en" ? "Job related" : "Jobbrelatert"}
+            </div>
             <div className="menu-links">
 
             </div>
           </div>
 
           <div className="menu-section">
-            <div className="menu-category-text">Hobbies</div>
+            <div className="menu-category-text">
+              {language === "en" ? "Hobbies" : "Hobbyer"}
+            </div>
             <div className="menu-links">
-              <a href="volleyball">Volleyball</a>
-              <a href="dj">DJ</a>
+              <a href="volleyball">
+                {language === "en" ? "Volleyball" : "Volleyball"}
+              </a>
+              <a href="dj">
+              {language === "en" ? "DJ" : "DJ"}
+              </a>
             </div>
           </div>
 

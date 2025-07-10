@@ -1,7 +1,11 @@
+"use client";
+
 import styles from "./page.module.css";
 import ScalingSection from "../components/scaling";
+import { useLanguage } from "../components/language_context";
 
 export default function Home() {
+  const { language } = useLanguage();
   
   return (
     <main className={styles.main}>
@@ -10,7 +14,7 @@ export default function Home() {
         <div className={styles.top}>
           <div className={styles.main_title}>
             <h1>
-              welcome!
+              {language === "en" ? "Welcome!" : "Velkommen!"}
             </h1>
           </div>
           <video src={'./video.mp4'} autoPlay muted loop className={styles.video}/>
@@ -20,7 +24,7 @@ export default function Home() {
       <ScalingSection>
         <div className={styles.introduction}>
           <h1>
-            Introduction
+            {language === "en" ? "Introduction" : "Introduksjon"}
           </h1>
         </div>
       </ScalingSection>
@@ -28,7 +32,7 @@ export default function Home() {
       <ScalingSection>
         <div className={styles.text}>
           <h1>
-            Hi! Welcome to my website :D
+            {language === "en" ? "Hi! Welcome to my website :D" : "Hei! Velkommen til nettsiden min :D"}
           </h1>
         </div>
       </ScalingSection>
