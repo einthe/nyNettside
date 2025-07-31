@@ -68,5 +68,35 @@
 .main::after {
   content: "";
   display: block;
-  height: 50vh;
+  height: 100vh;
+}
+
+.hero_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  overflow: visible;
+  padding: 1rem;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  margin-top: 20vh;
+}
+
+.hero_image {
+  max-width: 100%;
+  width: 25vh;
+  height: auto;
+  object-fit: contain;
+  margin-right: 2rem;
+  display: block;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+}
+
+.hero_text {
+  max-width: 40vh;
+}
+
+.section {
+  margin-bottom: 20vh;
 }
