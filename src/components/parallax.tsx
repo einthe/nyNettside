@@ -6,7 +6,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 export default function ParallaxBackground({ children }: { children: React.ReactNode }) {
   const targetRef = useRef(null);
   const { scrollY } = useScroll(/* { target: targetRef } */);
-  const y = useTransform(scrollY, [0, 5000], [0, -2000]);
+  const y = useTransform(scrollY, [0, 6000], [0, -2000]);
 
   return (
     <div style={{ position: 'relative' }}>
@@ -21,7 +21,7 @@ export default function ParallaxBackground({ children }: { children: React.React
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           // backgroundPositionY: bgY,
-          minHeight: '300vh',
+          minHeight: '500vh',
           width: '100%',
           zIndex: -1,
           willChange: 'transform',
