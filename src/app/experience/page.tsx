@@ -13,7 +13,7 @@ export default function Experience() {
 
       <ScalingSection>
         <div className={styles.section}>
-          <div className={styles.text}>
+          <div className={styles.title}>
             <h1>
               {language === "en" ? "Experience" : "Erfaring"}
             </h1>

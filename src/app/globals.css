@@ -2,6 +2,15 @@
   --primary-color: white;
   --secondary-color: white;
   --tertiary-color: white;
+  --petrol-color1: #00565f;
+  --petrol-color2: #004c55;
+  --petrol-color3: #00434a;
+  --petrol-color4: #003940;
+  --petrol-color5: #003035;
+  --petrol-color6: #00262a;
+  --petrol-color7: #001d20;
+  --petrol-color8: #001315;
+  --petrol-color9: #00090b;
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",

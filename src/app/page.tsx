@@ -16,7 +16,7 @@ export default function Home() {
       <ScalingSection>
         <div>
           <div className={styles.hero_container}>
-            <img src={'./IMG_20220810_235152.jpg'} className={styles.hero_image}/>
+            <img src={'/images/IMG_20220810_235152.jpg'} className={styles.hero_image}/>
             <div className={styles.hero_text}>
               <h1>Einar Therkelsen</h1>
               <p>
@@ -42,7 +42,7 @@ export default function Home() {
       </ScalingSection> */}
 
       <div className={styles.section}>
-        <img src="./cyber-gløs.jpg" className={styles.image}/>
+        <img src="/images/cyber-gløs.jpg" className={styles.image}/>
       </div>
 
       <ScalingSection>
@@ -66,7 +66,7 @@ export default function Home() {
       </ScalingSection>
 
       <div className={styles.section}>
-        <img src="./cyber-gløs.jpg" className={styles.image}/>
+        <img src="/images/cyber-gløs.jpg" className={styles.image}/>
       </div>
 
       <ScalingSection>
@@ -90,7 +90,7 @@ export default function Home() {
       </ScalingSection>
 
       <div className={styles.section}>
-        <img src="./cyber-gløs.jpg" className={styles.image}/>
+        <img src="/images/cyber-gløs.jpg" className={styles.image}/>
       </div>
 
       <ScalingSection>
