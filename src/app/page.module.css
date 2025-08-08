@@ -34,7 +34,8 @@
   font-size: 2vh;
   letter-spacing: 0.25vh;
   width: 100%;
-  max-width: 40vw;
+  width: 70vh;
+  max-width: 80vw;
 }
 
 .title {
@@ -44,7 +45,7 @@
   font-weight: 800;
   letter-spacing: 0.25vh;
   width: 100%;
-  max-width: 40vw;
+  max-width: 80vw;
 }
 
 .video {
@@ -81,19 +82,24 @@
 
 .hero_container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  max-width: 100%;
+  max-width: 80vw;
   overflow: visible;
   padding: 1rem;
   box-sizing: border-box;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero_image {
-  max-width: 100%;
-  width: 25vh;
+  max-width: 40vw;
+  max-width: 25vh;
+  flex: 0 0 auto;
   height: auto;
   object-fit: contain;
   margin-right: 2rem;
@@ -102,7 +108,9 @@
 }
 
 .hero_text {
-  max-width: 40vh;
+  max-width: 60vw;
+  width: 40vh;
+  font-size: 2vh;
 }
 
 .section {
@@ -137,6 +145,7 @@
   z-index: +1;
   width: 100%;
   height: 100%;
+  min-height: 50vh;
   object-fit: cover;
   object-position: center;
 }
