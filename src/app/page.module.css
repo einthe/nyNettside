@@ -41,7 +41,7 @@
 .title {
   text-align: center;
   align-content: center;
-  font-size: 4vh;
+  font-size: clamp(0.1vw, 4vh, 6vw);
   font-weight: 800;
   letter-spacing: 0.25vh;
   width: 100%;
@@ -160,4 +160,32 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+@media (orientation: portrait) {
+  .hero_container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .hero_image {
+    max-width: 50vw;
+    max-height: 30vh;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .hero_text {
+    max-width: 80vw;
+    width: auto;
+  }
+
+  .button-container {
+    position: static;
+    margin-top: 1rem;
+  }
 }

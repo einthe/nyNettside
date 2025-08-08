@@ -22,9 +22,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <LanguageProvider>
+          <HamburgerMenu />
           <ToggleLanguageButton />
           <ParallaxBackground>
-            <HamburgerMenu />
             {children}
           </ParallaxBackground>
         </LanguageProvider>
