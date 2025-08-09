@@ -52,7 +52,7 @@ export default function Home() {
               {language === "en" ? "Education" : "Utdanning"}
             </h1>
             <p>
-              {language === "en" ? "I am studying for a master's degree in Cybersecurity and Data Communication with a specialization in Cryptographic Engineering. Here is my resume." : "Jeg studerer til mastergrad i Cybersikkerhet og Datakommunikasjon med spesialisering i Kryptografisk ingeniørvitenskap. Her er min CV."}
+              {language === "en" ? "Read about my studies, courses, exchange program, and more." : "Les om studiene, fag, utveksling og mer."}
             </p>
           </div>
           <div style={{ display: "flex", justifyContent: "center", marginTop: "2rem" }}>
@@ -76,7 +76,7 @@ export default function Home() {
               {language === "en" ? "Experience" : "Erfaring"}
             </h1>
             <p>
-              {language === "en" ? "I am studying for a master's degree in Cybersecurity and Data Communication with a specialization in Cryptographic Engineering. Here is my resume." : "Jeg studerer til mastergrad i Cybersikkerhet og Datakommunikasjon med spesialisering i Kryptografisk ingeniørvitenskap. Her er min CV."}
+              {language === "en" ? "Read about the various summer jobs I have had." : "Les om de ulike sommerjobbene jeg har hatt."}
             </p>
           </div>
           <div style={{ display: "flex", justifyContent: "center", marginTop: "2rem" }}>
@@ -100,7 +100,7 @@ export default function Home() {
               {language === "en" ? "Interests" : "Interesser"}
             </h1>
             <p>
-              {language === "en" ? "I am studying for a master's degree in Cybersecurity and Data Communication with a specialization in Cryptographic Engineering. Here is my resume." : "Jeg studerer til mastergrad i Cybersikkerhet og Datakommunikasjon med spesialisering i Kryptografisk ingeniørvitenskap. Her er min CV."}
+              {language === "en" ? "Read about my interests such as volleyball, DJ-ing, filmmaking, and more." : "Les om mine interesser som volleyball, DJ-ing, filmproduksjon og mer."}
             </p>
           </div>
           <div style={{ display: "flex", justifyContent: "center", marginTop: "2rem" }}>

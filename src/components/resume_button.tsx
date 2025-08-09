@@ -10,7 +10,7 @@ export default function ResumeButton() {
 
   return (
     <div className="button-container" style={{ position: "relative", top: "1rem", left: "0" }}>
-      <button className="button" onClick={handleClick}>
+      <button className="button" onClick={handleClick} onTouchStart={() => {}}>
         {language === "en" ? "Resume" : "CV"}
       </button>
     </div>
