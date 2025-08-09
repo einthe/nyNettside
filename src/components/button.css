@@ -68,7 +68,7 @@
     -webkit-tap-highlight-color: transparent; 
   }
 
-  .button:focus {
+  .button:active {
     animation: tapBlink 200ms ease-out 1 both;
     outline: none;
   }

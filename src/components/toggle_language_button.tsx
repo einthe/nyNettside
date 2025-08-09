@@ -9,12 +9,7 @@ export default function ToggleLanguageButton() {
 
   return (
     <div className="button-container">
-        <button className="button" onClick={toggleLanguage}
-  onAnimationEnd={(e) => {
-    if (window.matchMedia("(orientation: portrait)").matches) {
-      (e.currentTarget as HTMLButtonElement).blur();
-    }
-  }}>
+        <button className="button" onClick={toggleLanguage} onTouchStart={() => {}}>
             {language === "en" ? "EN" : "NO"}
         </button>
     </div>
