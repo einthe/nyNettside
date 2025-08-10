@@ -16,7 +16,7 @@ export default function Home() {
       <ScalingSection>
         <div>
           <div className={styles.hero_container}>
-            <img src={'/images/IMG_20220810_235152.jpg'} className={styles.hero_image}/>
+            <img src={'/images/portrait.jpg'} className={styles.hero_image}/>
             <div className={styles.hero_text}>
               <h1>Einar Therkelsen</h1>
               <p>
