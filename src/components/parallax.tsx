@@ -15,7 +15,7 @@ export default function ParallaxBackground({ children }: { children: React.React
         style={{
           position: 'fixed',
           y,
-          backgroundImage: "url('/images/space_blur.jpg')",
+          backgroundImage: "url('/images/space_blur_curves.jpg')",
           backgroundAttachment: 'scroll',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
