@@ -66,7 +66,7 @@ export default function Home() {
       </ScalingSection>
 
       <div className={styles.section}>
-        <img src="/images/cyber-gløs.jpg" className={styles.image}/>
+        <img src="/images/experience_illustration.png" className={styles.image} style={{aspectRatio: "2.2/1", maxWidth: "100vw"}}/>
       </div>
 
       <ScalingSection>
