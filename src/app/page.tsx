@@ -42,7 +42,7 @@ export default function Home() {
       </ScalingSection> */}
 
       <div className={styles.section}>
-        <img src="/images/cyber-gløs.jpg" className={styles.image}/>
+        <img src="/images/cyber-gløs-vignette.jpg" className={styles.image}/>
       </div>
 
       <ScalingSection>
@@ -90,7 +90,7 @@ export default function Home() {
       </ScalingSection>
 
       <div className={styles.section}>
-        <img src="/images/cyber-gløs.jpg" className={styles.image}/>
+        <img src="/images/interests_vignette.jpg" className={styles.image}/>
       </div>
 
       <ScalingSection>
