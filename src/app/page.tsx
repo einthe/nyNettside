@@ -112,6 +112,14 @@ export default function Home() {
           </div>
         </div>
       </ScalingSection>
+
+      {/* <div>
+        <section className={styles.bottom_section}>
+          <p className={styles.title}>
+            Bottom section
+          </p>
+        </section>
+      </div> */}
       
     </main>
     );

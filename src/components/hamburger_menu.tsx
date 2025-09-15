@@ -23,7 +23,7 @@ const HamburgerMenu: React.FC = () => {
       {/* // {isOpen && ( */}
       <div className="menu">
 
-        <div className="menu-section">
+        {/* <div className="menu-section">
           <div className="menu-category-text">
             {language === "en" ? "General" : "Generelt"}
           </div>
@@ -55,6 +55,30 @@ const HamburgerMenu: React.FC = () => {
             {language === "en" ? "DJ" : "DJ"}
             </a>
           </div>
+        </div> */}
+
+        <div className="menu-text">
+          <a href="/">
+              {language === "en" ? "Home" : "Hjem"}
+          </a>
+        </div>
+
+        <div className="menu-text">
+          <a href="education">
+              {language === "en" ? "Education" : "Utdanning"}
+          </a>
+        </div>
+
+        <div className="menu-text">
+          <a href="experience">
+              {language === "en" ? "Experience" : "Erfaring"}
+          </a>
+        </div>
+
+        <div className="menu-text">
+          <a href="interests">
+              {language === "en" ? "Interests" : "Interesser"}
+          </a>
         </div>
 
       </div>

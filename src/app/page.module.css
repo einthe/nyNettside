@@ -77,7 +77,7 @@
 .main::after {
   content: "";
   display: block;
-  height: 100vh;
+  height: 50vh;
 }
 
 .hero_container {
@@ -161,6 +161,15 @@
   align-items: center;
   justify-content: center;
 }
+
+/* .bottom_section {
+  background-color: var(--petrol-color6);
+  color: white;
+  width: 100vw;
+  height: 60vh;
+  margin-top: 20vh;
+  position: relative;
+} */
 
 @media (orientation: portrait) {
   .hero_container {
