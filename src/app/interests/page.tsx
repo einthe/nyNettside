@@ -24,13 +24,13 @@ export default function Interests() {
 
       <div className={styles.landscape}>
         <div className={styles.section}>
-          <video src={'/videos/NettsideVolleyballVideo.mp4'} autoPlay muted loop className={styles.video}/>
+          <video src={'/videos/NettsideVolleyballVideo.mp4'} autoPlay muted loop playsInline webkit-playsinline="true" preload="metadata" className={styles.video}/>
         </div>
       </div>
 
       <div className={styles.portrait}>
         <div className={styles.section}>
-          <video src={'/videos/NettsideVolleyballVideoVertical.mp4'} autoPlay muted loop className={styles.video}/>
+          <video src={'/videos/NettsideVolleyballVideoVertical.mp4'} autoPlay muted loop playsInline webkit-playsinline="true" preload="metadata" className={styles.video}/>
         </div>
       </div>
 
