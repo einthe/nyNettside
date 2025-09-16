@@ -36,6 +36,9 @@ export default function Interests() {
 
       <ScalingSection>
         <div className={styles.section}>
+          <div className={styles.interest_icon}>
+            <img src={"/icons/volleyball.svg"} />
+          </div>
           <div className={styles.text}>
             <h1>
               {language === "en" ? "Volleyball" : "Volleyball"}
@@ -47,11 +50,20 @@ export default function Interests() {
         </div>
       </ScalingSection>
 
+      <div className={styles.section}>
+        <div style={{aspectRatio: "2.5/1", maxWidth: "100vw"}}>
+          <img src={'/images/dj.png'} className={styles.image} style={{objectPosition: "center 10%"}}/>
+        </div>
+      </div>
+
       <ScalingSection>
         <div className={styles.section}>
+          <div className={styles.interest_icon}>
+            <img src={"/icons/headset.svg"} />
+          </div>
           <div className={styles.text}>
             <h1>
-              {language === "en" ? "DJ" : "DJ"}
+              {language === "en" ? "DJ & Music" : "DJ & Musikk"}
             </h1>
             <p>
               {language === "en" ? "It started with volunteering, first at volleyball games at Toppvolley Norway and later for NTNUI. I quickly realized that I love creating an atmosphere during games with music and sound effects, so I went a bit ALL-IN. I got myself a DJ mixing deck, made my own sound effects in music software, and learned how DJ-ing works. Recently, I\’ve also dipped my toes into music production and even made a song, or rather a cover track. Check it out " : "Det begynte med dugnader, først på volleyballkamper på Toppvolley Norge og så seinere for NTNUI. Jeg fant fort ut at jeg elsker å skape stemning under kamper med musikk og lydeffekter, så jeg gikk litt ALL-IN. Jeg skaffet DJ-miksebord, lagde egne lydeffekter i musikkprogram og lærte hvordan DJ-ing fungerer. Nylig har jeg også dyppet tærne i musikkproduksjon og til og med laget en sang, eller en coverlåt. Sjekk den ut "}
@@ -59,7 +71,7 @@ export default function Interests() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <strong>{language === "en" ? "here" : "her"}</strong>
+                <strong style={{ textDecoration: "underline" }}>{language === "en" ? "here" : "her"}</strong>
               </Link>
               .
             </p>
@@ -69,6 +81,9 @@ export default function Interests() {
 
       <ScalingSection>
         <div className={styles.section}>
+          <div className={styles.interest_icon}>
+            <img src={"/icons/camera.svg"} />
+          </div>
           <div className={styles.text}>
             <h1>
               {language === "en" ? "Film Production" : "Filmproduksjon"}
@@ -82,7 +97,7 @@ export default function Interests() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <strong>Divine Intervention</strong>
+                <strong style={{ textDecoration: "underline" }}>Divine Intervention</strong>
               </Link>
               {language === "en" ? " (School project)" : " (Skoleprosjekt)"}
             </p>
@@ -92,7 +107,7 @@ export default function Interests() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <strong>WW2 Sekvens</strong>
+                <strong style={{ textDecoration: "underline" }}>WW2 Sekvens</strong>
               </Link>
             </p>
           </div>
@@ -101,6 +116,9 @@ export default function Interests() {
 
       <ScalingSection>
         <div className={styles.section}>
+          <div className={styles.interest_icon}>
+            <img src={"/icons/dumbbell.svg"} />
+          </div>
           <div className={styles.text}>
             <h1>
               {language === "en" ? "Strength Training" : "Styrketrening"}
@@ -114,6 +132,9 @@ export default function Interests() {
 
       <ScalingSection>
         <div className={styles.section}>
+          <div className={styles.interest_icon}>
+            <img src={"/icons/code.svg"} />
+          </div>
           <div className={styles.text}>
             <h1>
               {language === "en" ? "Programming" : "Programmering"}
