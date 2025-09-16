@@ -55,7 +55,10 @@ export default function Interests() {
             </h1>
             <p>
               {language === "en" ? "It started with volunteering, first at volleyball games at Toppvolley Norway and later for NTNUI. I quickly realized that I love creating an atmosphere during games with music and sound effects, so I went a bit ALL-IN. I got myself a DJ mixing deck, made my own sound effects in music software, and learned how DJ-ing works. Recently, I\’ve also dipped my toes into music production and even made a song, or rather a cover track. Check it out " : "Det begynte med dugnader, først på volleyballkamper på Toppvolley Norge og så seinere for NTNUI. Jeg fant fort ut at jeg elsker å skape stemning under kamper med musikk og lydeffekter, så jeg gikk litt ALL-IN. Jeg skaffet DJ-miksebord, lagde egne lydeffekter i musikkprogram og lærte hvordan DJ-ing fungerer. Nylig har jeg også dyppet tærne i musikkproduksjon og til og med laget en sang, eller en coverlåt. Sjekk den ut "}
-              <Link href="https://open.spotify.com/artist/1iF71QfT8n1jCmmvWWRwKn?si=gSi3UmY5RdCOLSUoK4PYiw">
+              <Link href="https://open.spotify.com/artist/1iF71QfT8n1jCmmvWWRwKn?si=gSi3UmY5RdCOLSUoK4PYiw"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <strong>{language === "en" ? "here" : "her"}</strong>
               </Link>
               .
@@ -75,14 +78,20 @@ export default function Interests() {
             </p>
             <br></br>
             <p>
-              <Link href="https://youtu.be/cKPU61edY-o">
+              <Link href="https://youtu.be/cKPU61edY-o"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <strong>Divine Intervention</strong>
               </Link>
               {language === "en" ? " (School project)" : " (Skoleprosjekt)"}
             </p>
             <br></br>
             <p>
-              <Link href="https://youtu.be/f8jsQhE093o">
+              <Link href="https://youtu.be/f8jsQhE093o"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <strong>WW2 Sekvens</strong>
               </Link>
             </p>
