@@ -256,7 +256,7 @@
   }
 }
 
-.portrait {
+/* .portrait {
   display: none;
 }
 
@@ -274,4 +274,16 @@
   .landscape {
     display: block;
   }
+} */
+
+.landscape {
+  display: block;
+}
+.portrait {
+  display: none;
+}
+
+@media (orientation: portrait) {
+  .landscape { display: none; }
+  .portrait { display: block; }
 }

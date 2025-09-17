@@ -155,6 +155,13 @@ export default function Interests() {
         </div>
       </div>
 
+      {/* <div className={styles.section}>
+        <video autoPlay muted loop playsInline webkit-playsinline="true" preload="metadata" className={styles.video}>
+          <source src="/videos/NettsideVolleyballVideo.mp4" media="(orientation: landscape)" type="video/mp4" />
+          <source src="/videos/NettsideVolleyballVideoVertical.mp4" media="(orientation: portrait)" type="video/mp4" />
+        </video>
+      </div> */}
+
       <ScalingSection>
         <div className={styles.section}>
           <div className={styles.interest_icon}>
