@@ -36,6 +36,7 @@
   width: 100%;
   width: 70vh;
   max-width: 80vw;
+  color: white;
 }
 
 .title {
@@ -46,6 +47,7 @@
   letter-spacing: 0.25vh;
   width: 100%;
   max-width: 80vw;
+  color: white;
 }
 
 .video {
@@ -111,6 +113,7 @@
   max-width: 60vw;
   width: 40vh;
   font-size: 2vh;
+  color: white;
 }
 
 .section {
@@ -244,6 +247,7 @@
   .hero_text {
     max-width: 80vw;
     width: auto;
+    color: white;
   }
 
   .button-container {
