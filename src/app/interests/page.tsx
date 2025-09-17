@@ -19,6 +19,23 @@ export default function Interests() {
               {language === "en" ? "Interests" : "Interesser"}
             </h1>
           </div>
+          {/* <div className={styles.line_of_icons}>
+            <div className={styles.interest_icon}>
+              <img src={"/icons/volleyball.svg"} />
+            </div>
+            <div className={styles.interest_icon}>
+              <img src={"/icons/headset.svg"} />
+            </div>
+            <div className={styles.interest_icon}>
+              <img src={"/icons/camera.svg"} />
+            </div>
+            <div className={styles.interest_icon}>
+              <img src={"/icons/dumbbell.svg"} />
+            </div>
+            <div className={styles.interest_icon}>
+              <img src={"/icons/code.svg"} />
+            </div>
+          </div> */}
         </div>
       </ScalingSection>
 
@@ -51,8 +68,8 @@ export default function Interests() {
       </ScalingSection>
 
       <div className={styles.section}>
-        <div style={{aspectRatio: "2.5/1", maxWidth: "100vw"}}>
-          <img src={'/images/dj.png'} className={styles.image} style={{objectPosition: "center 10%"}}/>
+        <div className={styles.aspect_ratio}>
+          <img src={'/images/dj.png'} className={styles.djImage}/>
         </div>
       </div>
 
@@ -78,6 +95,18 @@ export default function Interests() {
           </div>
         </div>
       </ScalingSection>
+
+      <div className={styles.landscape}>
+        <div className={styles.section}>
+          <video src={'/videos/Filmproduksjon.mp4'} autoPlay muted loop playsInline webkit-playsinline="true" preload="metadata" className={styles.video}/>
+        </div>
+      </div>
+
+      <div className={styles.portrait}>
+        <div className={styles.section}>
+          <video src={'/videos/FilmproduksjonVertical.mp4'} autoPlay muted loop playsInline webkit-playsinline="true" preload="metadata" className={styles.video}/>
+        </div>
+      </div>
 
       <ScalingSection>
         <div className={styles.section}>
@@ -114,6 +143,18 @@ export default function Interests() {
         </div>
       </ScalingSection>
 
+      <div className={styles.landscape}>
+        <div className={styles.section}>
+          <video src={'/videos/Styrkevideo.mp4'} autoPlay muted loop playsInline webkit-playsinline="true" preload="metadata" className={styles.video}/>
+        </div>
+      </div>
+
+      <div className={styles.portrait}>
+        <div className={styles.section}>
+          <video src={'/videos/StyrkevideoVertical.mp4'} autoPlay muted loop playsInline webkit-playsinline="true" preload="metadata" className={styles.video}/>
+        </div>
+      </div>
+
       <ScalingSection>
         <div className={styles.section}>
           <div className={styles.interest_icon}>
@@ -129,6 +170,18 @@ export default function Interests() {
           </div>
         </div>
       </ScalingSection>
+
+      <div className={styles.landscape}>
+        <div className={styles.section}>
+          <img src="/images/programming.png" className={styles.image}/>
+        </div>
+      </div>
+
+      <div className={styles.portrait}>
+        <div className={styles.section}>
+          <img src="/images/programmingVertical.png" className={styles.image}/>
+        </div>
+      </div>
 
       <ScalingSection>
         <div className={styles.section}>
