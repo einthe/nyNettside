@@ -145,13 +145,13 @@ export default function Interests() {
 
       <div className={styles.landscape}>
         <div className={styles.section}>
-          <video src={'/videos/Styrkevideo.mp4'} autoPlay muted loop playsInline webkit-playsinline="true" preload="metadata" className={styles.video}/>
+          <video src={'/videos/StyrkeVideo.mp4'} autoPlay muted loop playsInline webkit-playsinline="true" preload="metadata" className={styles.video}/>
         </div>
       </div>
 
       <div className={styles.portrait}>
         <div className={styles.section}>
-          <video src={'/videos/StyrkevideoVertical.mp4'} autoPlay muted loop playsInline webkit-playsinline="true" preload="metadata" className={styles.video}/>
+          <video src={'/videos/StyrkeVideoVertical.mp4'} autoPlay muted loop playsInline webkit-playsinline="true" preload="metadata" className={styles.video}/>
         </div>
       </div>
 
